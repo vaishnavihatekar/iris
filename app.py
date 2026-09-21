@@ -18,7 +18,7 @@ petal_width=st.number_input('Petal Width (cm)',min_values=0.0,max_values=5.0,val
 
 #prediction
 if st.button('predict'):
-    input_data=np.array([[sepal_length
+    input_data=np.array([[sepal_length,
                           sepal_width,
                           petal_length,
                           petal_length]]).astype(np.float64)
