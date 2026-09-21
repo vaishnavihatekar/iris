@@ -1,6 +1,6 @@
 import streamlit as st
-import joblib
 import numpy as np
+import joblib
 
 #load model
 model = joblib.load('iris_model.pkl')
