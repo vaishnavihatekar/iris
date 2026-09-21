@@ -8,7 +8,7 @@ model = joblib.load('iris_model.pkl')
 #page title
 st.title('Iris Flower Prediction App')
 
-st..header('Enter the measurements of the Iris flower:')
+st.header('Enter the measurements of the Iris flower:')
 
 #input title
 sepal_lenght=st.number_input('Sepal Length (cm)',min_values=0.0,max_values=10.0,values=5.0,step=0.1)
